@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after { box-sizing:border-box; }
+a { text-decoration:none; color:inherit; cursor:pointer; }
+button { background-color:transparent; color:inherit; border-width:0; padding:0; cursor:pointer; }
+figure{ margin:0; }
+ul, ol, dd { margin:0; padding:0; list-style:none; }
+h1, h2, h3, h4, h5, h6 { margin:0; font-size:inherit; font-weight:inherit; }
+p { margin:0; }
+cite { font-style:normal; }
+fieldset { border-width:0; padding:0; margin:0; }
+
+h2 {
+    color: red;
+}
+
+h3 span {
+    color: red;
+}
+
+h3 .text-color1 {
+    color: aqua;
+}
+
+.text-color2 {
+    color: blue;
+}
+
+#text-id {
+    color: white;
+    background: #000;
+}
+
+div .text-hover:hover {
+    color: red;
+}
+div.bg-color {
+    background: #000;
+}
+.color-green{
+    color: green;
+}
+.text-centr {
+    text-align: center;
+    font-weight: bold;
+    color: blueviolet;
+    background: rgb(54, 228, 112);
+    
+}
